@@ -1,0 +1,172 @@
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    padding-top: 10rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#texto h2 {
+    font-size: 4rem;
+}
+
+#texto h3 {
+    font-size: 2.5rem;
+}
+
+#texto h2 strong {
+    color: #ff0000b4;
+}
+
+#texto h3 strong {
+    color: #ff0000b4;
+}
+
+#texto article {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#sobre img {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+
+#map {
+    height: 50rem;
+    width: 50rem;
+}
+
+#mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+    padding-top: 10rem;
+}
+
+#mapa h2 {
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+#mapa h2 a {
+    color: #ff0000b4;
+}
+
+#mapa article {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+
+}
+
+#mapa iframe {
+    border-radius: 2rem;
+}
+
+#contato {
+    padding-top: 11rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#formulario {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+
+
+}
+
+#form #titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff0000b4;
+}
+
+#formulario input::placeholder {
+    color: #ff0000b4;
+    background-color: black;
+    padding: 1rem;
+}
+
+#formulario input {
+    border: none;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    width: 35rem;
+    border: .1rem solid #ff0000b4;
+    border-radius: 1rem;
+}
+
+#faq {
+    text-align: center;
+    padding: 5rem;
+    padding-top: 10rem;
+}
+
+#faq h2 {
+    font-size: 4rem;
+    color: #ff0000b4;
+}
+
+#faq h3 {
+    font-size: 2.5rem;
+    color: #ff0000b4;
+}
+
+#faq article {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.tam {
+    height: 75rem;
+}
+
+#whats {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+#whats a img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    /* Ajuste o tamanho conforme necessário */
+    height: 50px;
+    /* Ajuste o tamanho conforme necessário */
+    z-index: 1000;
+}

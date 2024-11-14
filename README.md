@@ -1,5 +1,11 @@
 # Academia IronPulse Brazilian Jiu-Jitsu
- "Aqui vai o mockup com as imagens"
+
+<div align=center>
+    <img src ="./assets/midias/iPad-Air-4-127.0.0.1.png" width=300>
+    <img src ="./assets/midias/iPhone-14-Plus-127.0.0.1.png " width=200>
+    <img src ="./assets/midias/Macbook-Air-127.0.0.1.png " width=500 height=340>
+</div>
+
 ## O projeto
 O projeto foi desenvolvido em html, css e javascript. Com a finalidade de uma academia de jiu-jitsu divulgar o seu trabalho e atrair mais alunos através de sua página web.
 
@@ -36,8 +42,8 @@ Não foi ultilizado muitas cores, por ser uma arte marcial. Então desenvolve-se
 
  ## Tecnologias Ultilizadas 
  [![html](./assets/midias/icons8-html5-48.png)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)
- [![html](./assets/midias/icons8-css-48.png)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
- [![html](./assets/midias/icons8-javascript-48.png)](https://www.javascript.com/)
+ [![CSS](./assets/midias/icons8-css-48.png)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
+ [![Javascript](./assets/midias/icons8-javascript-48.png)](https://www.javascript.com/)
 
  
 

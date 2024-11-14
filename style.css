@@ -2,6 +2,12 @@
  @import url(./css/main.css);
  @import url(./css/footer.css);
 
+ :root{
+    --cor-de-fundo:#ff0000b4;
+    --escuro: black;
+    --claro: white;
+ }
+
  * {
     padding: 0;
     margin: 0;
@@ -16,5 +22,5 @@ html{
 }
 body{
     /* background-image: linear-gradient(to top,  #ff0000b4 , black 50%); */
-    background-color: black;
+    background-color: var(--escuro);
 }

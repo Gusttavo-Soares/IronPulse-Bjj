@@ -36,13 +36,13 @@ header nav h1 img{
     text-shadow: 2rem 2rem 4rem #000000b3;
     z-index: 1; */
     border-radius: 1rem;
-    background-color: #ff0000b4;
+    background-color:var(--cor-de-fundo);
     height: 10rem;
     width: 10rem;
     
 }
 .material-symbols-outlined {
-    color: #ff0000b4;
+    color:var(--cor-de-fundo);
     font-variation-settings:
         'FILL' 0,
         'wght' 800,
@@ -53,7 +53,7 @@ header nav h1 img{
     display: flex;
     align-items: center;
    justify-content: space-between;
-    background-color: #000000;
+    background-color: var(--escuro);
     padding: 2rem;
     padding-bottom: 0;
     margin-top: 3rem;
@@ -62,12 +62,12 @@ header nav h1 img{
 }
 #navegacao a{
     padding: 1rem;
-    color: #ff0000b4;
+    color:var(--cor-de-fundo);
     font-weight: 700;
 }
 #navegacao > section button{
-    background-color:#ff0000b4 ;
-    color: white;
+    background-color:var(--cor-de-fundo);
+    color:var(--claro);
     border: none;
     border-radius: 2rem;
     padding: 1rem;
@@ -81,14 +81,26 @@ header nav h1 img{
 
 
 @media (max-width: 820px) {
+
     #oculto{
-        display:none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40rem;
+        position: absolute;
+        top: 40rem;
+        gap: 4rem ;
+
     }
     #navegacao  span{
         display:block;
     }
+    
     #navegacao{
+        
+        z-index: 100;
         justify-content: space-around;
+        position: fixed;
     }
     #meu{
         font-size: 5rem;
@@ -101,6 +113,13 @@ header nav h1 img{
     background-repeat: no-repeat;
     background-position: center;
    }
+
+   .revelarNavegacao{
+    display:none !important;
+}
+   .mudarAltura{
+    height: 200vh !important;
+   }
 }
 
 
@@ -108,9 +127,9 @@ header nav h1 img{
 
 
 @media (max-width: 480px) {
-    #oculto{
+    /* #oculto{
         display:none;
-    }
+    } */
     #navegacao  span{
         display:block;
     }
@@ -130,9 +149,6 @@ header nav h1 img{
    }
     #texto h2{
         text-align: center;
-    }
-
-        
+    } 
 }
-
 

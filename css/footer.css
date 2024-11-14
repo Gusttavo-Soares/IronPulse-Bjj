@@ -2,7 +2,7 @@ footer{
     background-color: #ff00005a;
     display: flex;
     align-items: center;
-    color: black;
+    color:var(--escuro);
     flex-direction: column;
     gap: 2rem;
 }

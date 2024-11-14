@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IronPulse BJJ</title>
   <link rel="shortcut icon" href="./assets/midias/bjj.webp" type="image/x-icon">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
 
   <link rel="stylesheet" href="./style.css">
@@ -19,7 +19,7 @@
   <header id="cabecalho">
     <nav id="navegacao">
       <h1> <a href="#cabecalho"><img src="./assets/midias/bjj.webp" alt="Logo"></a></h1>
-      <section id="oculto">
+      <section id="oculto" class="revelarNavegacao mostrarNavegacao">
         <a href="#sobre">Sobre nós</a>
         <a href="#contato">Seja mebro</a>
         <a href="#mapa">Unidade</a>
@@ -83,27 +83,27 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
       </ol>
       <section class="carousel-inner">
-        <div class="carousel-item active ">
+        <section class="carousel-item active ">
           <img class="d-block w-100 tam" src="./assets/midias/2camp.jpg" alt="Primeiro Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/3cria.jpg" alt="Segundo Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/alunos-e-prof.jfif" alt="Terceiro Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/crianças.jpg" alt="Terceiro Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/kimura.jpeg" alt="Terceiro Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/mulheres.jpg" alt="Terceiro Slide">
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="d-block w-100 tam" src="./assets/midias/soltinho.jfif" alt="Terceiro Slide">
-        </div>
+        </section>
       </section>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,16 +120,16 @@
         <h2 id="titulo">Faça sua pré matrícula</h2>
         <fieldset id="formulario">
           <label for=""></label>
-          <input type="text" id="nome" name="nome" placeholder="Nome completo" autocomplete="name">
+          <input type="text" id="nome" name="nome" placeholder="Nome completo" autocomplete="name" required>
 
           <label for="email"></label>
-          <input type="email" id="email" placeholder="Digite seu E-mail" autocomplete="email" name="email">
+          <input type="email" id="email" placeholder="Digite seu E-mail" autocomplete="email" name="email" required>
 
           <label for="telefone"></label>
-          <input type="text" id="telefone" min="12" name="telefone" placeholder="Celular(xx)xxxxx-xxxx">
+          <input type="text" id="telefone" min="12" name="telefone" placeholder="Celular(xx)xxxxx-xxxx" required>
 
           <label for="nascimento"></label>
-          <input type="date" id="nascimento" name="nascimento" placeholder="Data de nascimento">
+          <input type="date" id="nascimento" name="nascimento" placeholder="Data de nascimento" required>
         </fieldset>
         <button id="enviar" type="submit">Enviar</button>
       </form>

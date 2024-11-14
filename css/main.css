@@ -55,7 +55,8 @@
     flex-direction: column;
     align-items: center;
     margin: 5rem;
-    padding-top: 10rem;
+    padding: 10rem;
+    border: .1rem solid #ff0000b4;
 }
 
 #mapa h2 {
@@ -122,6 +123,12 @@
     width: 35rem;
     border: .1rem solid #ff0000b4;
     border-radius: 1rem;
+}
+#form button{
+    background-color:#ff000055;
+    color: #ff0000b4;
+    border: .1rem solid #ff0000b4;
+    padding: 1rem 3rem;
 }
 
 #faq {

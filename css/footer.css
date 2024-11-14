@@ -1,0 +1,14 @@
+footer{
+    background-color: #ff00005a;
+    display: flex;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    gap: 2rem;
+}
+#footer h2{
+    margin-bottom: 2rem;
+}
+footer article{
+    font-size: 1.6rem;
+}

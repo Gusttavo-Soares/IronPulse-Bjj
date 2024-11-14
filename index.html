@@ -18,21 +18,22 @@
 <body>
   <header id="cabecalho">
     <nav id="navegacao">
-      <h1> <a href="#cabecalho"><img src="./assets/midias/bjj.webp" alt=""></a></h1>
-      <section>
+      <h1> <a href="#cabecalho"><img src="./assets/midias/bjj.webp" alt="Logo"></a></h1>
+      <section id="oculto">
         <a href="#sobre">Sobre nós</a>
         <a href="#contato">Seja mebro</a>
         <a href="#mapa">Unidade</a>
         <a href="#faq">FAQ</a>
         <button>Área do aluno</button>
-        <span class="material-symbols-outlined">menu</span>
       </section>
+      <span id="meu" class="material-symbols-outlined">menu</span>
     </nav>
     <video width="100vw" autoplay muted loop>
       <source src="./assets/midias/jiu-jitsu-motivation-ᴴᴰ.mp4" type="video/mp4"> Seu navegador não
       suporta o elemento <code>video</code>.
     </video>
   </header>
+  
   <main>
     <section id="sobre">
       <section id="texto">
@@ -68,7 +69,7 @@
           interagir e fortalecer os laços de comunidade.
         </article>
       </section>
-      <img src="./assets/midias/armlokjpg.jpg" alt="Foto da academia">
+      <img src="./assets/midias/armlokjpg.jpg" alt="Foto da academia" class="principal-img">
     </section>
 
     <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -128,9 +129,9 @@
           <input type="text" id="telefone" min="12" name="telefone" placeholder="Celular(xx)xxxxx-xxxx">
 
           <label for="nascimento"></label>
-          <input type="text" id="nascimento" name="nascimento" placeholder="Data de nascimento">
+          <input type="date" id="nascimento" name="nascimento" placeholder="Data de nascimento">
         </fieldset>
-        <button>Enviar</button>
+        <button id="enviar" type="submit">Enviar</button>
       </form>
     </section>
     <section id="mapa">
@@ -209,6 +210,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+
 
 </body>
 

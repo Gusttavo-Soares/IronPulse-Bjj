@@ -72,3 +72,67 @@ header nav h1 img{
     border-radius: 2rem;
     padding: 1rem;
 }
+#navegacao span{
+    display: none;
+}
+
+
+/*==========================================820px=======================================================================*/
+
+
+@media (max-width: 820px) {
+    #oculto{
+        display:none;
+    }
+    #navegacao  span{
+        display:block;
+    }
+    #navegacao{
+        justify-content: space-around;
+    }
+    #meu{
+        font-size: 5rem;
+    }
+    .principal-img{
+        display: none;
+   }
+   #sobre{
+    background-image: url(../assets/midias/armlokjpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+}
+
+
+/*==========================================480px=======================================================================*/
+
+
+@media (max-width: 480px) {
+    #oculto{
+        display:none;
+    }
+    #navegacao  span{
+        display:block;
+    }
+    #navegacao{
+        justify-content: space-around;
+    }
+    #meu{
+        font-size: 5rem;
+    }
+   .principal-img{
+    display: none;
+   }
+   #sobre{
+    background-image: url(../assets/midias/armlokjpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+    #texto h2{
+        text-align: center;
+    }
+
+        
+}
+
+

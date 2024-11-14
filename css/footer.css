@@ -12,3 +12,12 @@ footer{
 footer article{
     font-size: 1.6rem;
 }
+@media (max-width: 480px){
+        footer article{
+            padding: 2rem;
+            text-align: center;
+        }
+
+
+
+}

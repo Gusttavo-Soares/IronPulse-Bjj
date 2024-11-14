@@ -1,30 +1,43 @@
-# Projeto site Academia
+# Academia IronPulse Brazilian Jiu-Jitsu
+ "Aqui vai o mockup com as imagens"
+## O projeto
+O projeto foi desenvolvido em html, css e javascript. Com a finalidade de uma academia de jiu-jitsu divulgar o seu trabalho e atrair mais alunos através de sua página web.
+
+## Cores
+Não foi ultilizado muitas cores, por ser uma arte marcial. Então desenvolve-se uma paleta dos seguintes hexadecimal(cores):
+- #000000(black)
+- #ffffff(white)
+- #ff0000b4(shade of Red)
+    - E algumas variações de transparencia desse vermelho
+
+## Tipografia
+ Usada em todo o projeto uma font-family "Arial Sans-serif"
+
+## Lista de Tarefas Realizadas
+- [x] Estrutura HTML
+- [x] Donwload de imgs e vídeos
+- [x] Estrutura CSS
+- [x] Responsividade
+- [x] Realizar primeiro commit
+- [x] Adicionar Iteração com javascript
+- [x] Estruturar README
+- [x] Segundo Commit
+- [x] Hospedar o projeto
+
+## Confira aqui ↧
+ "Aqui vai o link do site hospedado"
+
+## Desenvolvedor 
+ Gusttavo Soares, Front-end developer. 
+
+ [![Instagram](./assets/midias/icons8-instagram-48.png)](https://www.instagram.com/gusttavosoares._/)
+ [![Whastapp](./assets/midias/icons8-whatsapp-48.png)](https://api.whatsapp.com/send?phone=5561985801669)
+ [![github](./assets/midias/icons8-github-64.png)](https://github.com/Gusttavo-Soares)
+
+ ## Tecnologias Ultilizadas 
+ [![html](./assets/midias/icons8-html5-48.png)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)
+ [![html](./assets/midias/icons8-css-48.png)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
+ [![html](./assets/midias/icons8-javascript-48.png)](https://www.javascript.com/)
+
  
-GymSite é um projeto de site de academia desenvolvido para fornecer uma experiência completa e amigável tanto para os administradores quanto para os usuários da academia. Este site permite que os membros visualizem informações sobre a academia, como horários de aulas, perfis de treinadores, planos de assinatura e muito mais.
-
-## Funcionalidades
-### Horários de Aulas: 
-Visualização atualizada dos horários de aulas e atividades disponíveis.
-
-### Perfis de Treinadores:
- Informações detalhadas sobre os treinadores, suas especialidades e qualificações.
-
-### Planos de Assinatura:
- Opções de planos de assinatura com preços e benefícios detalhados.
-
-### Notícias e Eventos:
- Atualizações regulares sobre eventos especiais, novos programas e notícias da academia.
-
-### Contato e Suporte:
- Informações de contato e formulário de suporte para os membros.
-
-## Tecnologias Utilizadas
- ### HTML5:
-  Estrutura semântica do site.
-
- ### CSS:
-  Estilização e layout responsivo.
-
- ### JavaScript: 
- Funcionalidades interativas.
 

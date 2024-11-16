@@ -3,9 +3,9 @@
  @import url(./css/footer.css);
 
  :root{
-    --cor-de-fundo:#ff0000b4;
-    --escuro: black;
-    --claro: white;
+    --cor-de-fundo:white;
+    --escuro:#29368A;
+    --claro: ;
  }
 
  * {
@@ -14,6 +14,8 @@
     box-sizing: border-box;
     /* overflow: hidden; */
     text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 html{

@@ -13,3 +13,13 @@ menu.addEventListener('click', ()=>{
     navegacao.classList.toggle('revelarNavegacao')
     nav.classList.toggle('mudarAltura')
 })
+
+
+
+const faqs = document.querySelectorAll('.faq')
+
+faqs.forEach((faq) => {   
+    faq.addEventListener('click', ()=> {
+        faq.classList.toggle('active');
+    });
+});
